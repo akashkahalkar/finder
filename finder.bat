@@ -86,7 +86,7 @@ choice /c yn
 cls
 if %ERRORLEVEL%==1 goto start
 if %ERRORLEVEL%==2 (
-echo ----------- Thank You For Using ---------------
+echo ----------- Thank You For Using ----------
 echo.
 pause
 goto exit
